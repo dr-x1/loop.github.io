@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header
+{
+    background-color: #000000da;
+}
+header a
+{
+    color: #51ff00;
+    text-decoration: none; /*去掉字体所有的装饰*/
+}
+header a:hover
+{
+    text-decoration:underline;
+}
+header li
+{
+    display: inline;
+    margin-right: 4vw;
+}
+header p
+{
+    color: #51ff00;
+}
+header h1{
+color: #51ff00;
+}
+header ul
+{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    line-height: 45px;
+}
+section
+{
+background-color: rgb(0, 0, 0);
+border: 5px #66ff0020 solid;
+padding: 20px,0px;
+}
+p{
+font: size 36px;
+}
+.PICTURES
+{
+    /*background-color: antiquewhite;*/
+    color: white;
+    height: 100vh;
+    background-image:url("miu.jpg");
+    background-image:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.PICTURES h2
+{
+    font-size: 60px;
+    color: chartreuse;
+}
+.PICTURES p
+{
+color: rgb(110, 194, 0);
+font-size: 18px;
+margin: 25px 0;
+}
+.GAME
+{
+    height: 100vh;
+    background-image:url("666.jpg");
+    background-image:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.GAME h1
+{
+color: rgb(255, 255, 255);
+font-size:60px ;
+}
+.GAME p
+{
+font-size:20px;
+color: rgb(255, 255, 255);
+}
+footer
+{
+    background-color: rgb(0, 0, 0);
+    border: 5px #66ff0020 solid;
+    padding: 20px,0px; 
+}
+footer p
+{
+    color: #51ff00;
+}
